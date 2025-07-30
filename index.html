@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Servicios Tecnológicos</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Menú -->
+  <header>
+    <div class="logo">CHAVA'S TECNOLOGY</div>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#footer">Ubicación</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+  </header>
+
+  <!-- Slider -->
+  <section class="slider">
+    <div class="slides">
+      <img src="https://cdn.pixabay.com/photo/2021/01/02/12/45/microchip-5881457_1280.jpg" alt="Tech 1" />
+      <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_1280.jpg" alt="Tech 2" />
+      <img src="https://cdn.pixabay.com/photo/2022/05/11/11/53/it-disposal-7189215_1280.png" alt="Tech 3" />
+    </div>
+  </section>
+
+  <!-- Servicios -->
+<section id="servicios" class="servicios-visual">
+  <h2 class="titulo-seccion">Nuestros Servicios</h2>
+  <p class="subtitulo-seccion">Soluciones tecnológicas modernas para particulares y empresas</p>
+
+  <div class="cards-servicios">
+    <div class="card-servicio">
+      <img src="https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg" alt="Desarrollo Web" />
+      <div class="card-content">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Desarrollo Web</h3>
+        <p>Sitios web modernos, optimizados y 100% responsivos.</p>
+      </div>
+    </div>
+
+    <div class="card-servicio">
+      <img src="https://cdn.pixabay.com/photo/2022/04/04/16/42/ai-7111803_1280.jpg" alt="Sistemas a la Medida" />
+      <div class="card-content">
+        <i class="fas fa-cogs"></i>
+        <h3>Instalación y monitoreo de cámaras de seguridad</h3>
+        <p>Instalación, mantenimiento de cámaras de seguridad</p>
+      </div>
+    </div>
+
+    <div class="card-servicio">
+      <img src="https://cdn.pixabay.com/photo/2020/04/24/20/27/computer-5088593_1280.jpg" alt="Mantenimiento" />
+      <div class="card-content">
+        <i class="fas fa-tools"></i>
+        <h3>Mantenimiento de PCs</h3>
+        <p>Soporte técnico, limpieza, reparación y formateo.</p>
+      </div>
+    </div>
+
+    <div class="card-servicio">
+      <img src="https://cdn.pixabay.com/photo/2016/04/27/15/04/office-1356793_1280.png" alt="Cursos de Excel" />
+      <div class="card-content">
+        <i class="fas fa-file-excel"></i>
+        <h3>Cursos de MS Office</h3>
+        <p>Capacitación desde básico a avanzado.</p>
+      </div>
+    </div>
+</section>
+
+<!-- Botón flotante de contacto -->
+  <button class="contact-btn" id="contact-btn"><i class="fas fa-envelope"></i> Contactar</button>
+
+<!-- Formulario flotante -->
+<div class="contact-form" id="contact-form">
+  <form>
+    <h3>Contáctanos</h3>
+    <input type="text" name="nombre" placeholder="Nombre completo" required />
+    <input type="email" name="correo" placeholder="Correo electrónico" required />
+    <input type="number" name="celular" placeholder="Celular" required />
+    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+
+  <!-- Pie de página -->
+  <footer id="footer">
+    <div class="footer-content">
+      <div class="contact-info">
+        <h4>Contacto</h4>
+        <p><i class="fas fa-envelope"></i> cchavarriacarlos99@gmail.com</p>
+        <p><i class="fas fa-phone"></i> +505 7689 0425</p>
+        <p><i class="fas fa-map-marker-alt"></i> Dolores - Carazo, Nicaragua</p>
+      </div>
+      <div class="social">
+        <h4>Síguenos</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15618.809470750215!2d-86.2240935087733!3d11.856094913919781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f741cd62dae910b%3A0x964fe90d3a986805!2sDolores!5e0!3m2!1ses!2sni!4v1753820172786!5m2!1ses!2sni" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <p class="copyright">© 2025 CHAVA'S TEC. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
