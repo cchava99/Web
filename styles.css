@@ -311,5 +311,10 @@ footer p {
     height: 300px;
     object-fit: cover;
   }
+  .nav {
+  top: 60px; /* o la altura del header */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
+}
+
 
