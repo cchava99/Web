@@ -291,12 +291,25 @@ footer p {
   }
   .nav.open {
     display: flex;
+    flex-direction: column; /* <-- importante */
   }
   .menu-toggle {
     display: block;
+  }
+    .nav ul {
+    flex-direction: column; /* Para que el ul también sea vertical */
+  }
+  .nav ul li {
+    margin: 0;
+    border-bottom: 1px solid #334155;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 1rem;
   }
   .slides img {
     height: 300px;
     object-fit: cover;
   }
 }
+
