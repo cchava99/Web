@@ -8,13 +8,11 @@ if (toggle && nav) {
 }
 
 // Mostrar/Ocultar el formulario flotante
-const openContact = document.getElementById('open-contact-form');
+const contactBtn = document.getElementById('contact-btn');
 const contactFormWrapper = document.getElementById('contact-form');
-
-if (openContact && contactFormWrapper) {
-  openContact.addEventListener('click', (e) => {
-    e.preventDefault(); // evitar el scroll
-    contactFormWrapper.classList.add('visible'); // Mostrar el formulario
+if (contactBtn && contactFormWrapper) {
+  contactBtn.addEventListener('click', () => {
+    contactFormWrapper.style.display = contactFormWrapper.style.display === 'block' ? 'none' : 'block';
   });
 }
 
@@ -59,5 +57,6 @@ if (form) {
     }
   });
 }
+
 
 
