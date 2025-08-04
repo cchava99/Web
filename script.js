@@ -13,6 +13,11 @@ const contactFormWrapper = document.getElementById('contact-form');
 if (contactBtn && contactFormWrapper) {
   contactBtn.addEventListener('click', () => {
     contactFormWrapper.style.display = contactFormWrapper.style.display === 'block' ? 'none' : 'block';
+
+    // ✅ Cerrar menú si está abierto (solo en móvil)
+    if (nav.classList.contains('open')) {
+      nav.classList.remove('open');
+    }
   });
 }
 
@@ -57,6 +62,7 @@ if (form) {
     }
   });
 }
+
 
 
 
