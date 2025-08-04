@@ -332,6 +332,7 @@ footer p {
     right: 10px;
   }
 }
+
 @media (min-width: 769px) {
   .close-form {
     font-size: 1.8rem;
@@ -339,6 +340,8 @@ footer p {
     right: 15px;
   }
 }
+
+
 
 
 
